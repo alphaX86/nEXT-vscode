@@ -51,6 +51,18 @@ So far, no issues reported!
 
 ## Release Notes
 
+### 1.1.2
+
+More templates added!
+
+### 1.1.1
+
+Fixed known issues
+
+### 1.0.1
+
+Added more support of snippets
+
 ### 1.0.0
 
 Initial release of next-snippets, added support for code templates of ML  
