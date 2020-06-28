@@ -47,7 +47,7 @@ Some commands for invoking the code snippets are given below!
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+So far, no issues reported!
 
 ## Release Notes
 
