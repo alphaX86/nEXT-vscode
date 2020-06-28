@@ -1,0 +1,101 @@
+{
+    "dat_intro":{
+        "scope": "python",
+        "prefix": "!dat",
+        "body": ["$LINE_COMMENT Importing basic libraries",
+            "import numpy as np", 
+            "import pandas as pd",
+            "import matplotlib.pyplot as plt",
+        ],
+    },
+
+    "dat_nn": {
+        "scope": "python",
+        "prefix": "!nntmp",
+        "body": ["$LINE_COMMENT For neural networks",
+            "import tensorflow as tf",
+            "from tensorflow import keras",
+        ],   
+    },
+
+    "dat_encode": {
+        "scope": "python",
+        "prefix": "!encode",
+        "body": ["$LINE_COMMENT Encoding the dataset !",
+            "from sklearn.compose import ColumnTransformer",
+            "from sklearn.preprocessing import OneHotEncoder",
+            "ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [$LINE_COMMENT Replace with any column index !])], remainder='passthrough')",
+            "x = ct.fit_transform(x) $LINE_COMMENT Replace with any variable!!",
+        ],
+    },
+
+    "dat_encody": {
+        "scope": "python",
+        "prefix": "!encody",
+        "body": ["$LINE_COMMENT For encoding y",
+            "from sklearn.preprocessing import LabelEncoder",
+            "le = LabelEncoder()",
+            "y = le.fit_transform(y) $LINE_COMMENT Replace with any variable",
+        ],
+    },
+
+    "data_split": {
+        "scope": "python",
+        "prefix": "!train",
+        "body": ["$LINE_COMMENT Splitting dataset",
+            "from sklearn.model_selection import train_test_split",
+            "a_train, a_test, b_train, b_test = train_test_split(a, b, test_size = n, random_state = n)",
+            "$LINE_COMMENT WARNING: REPLACE ALL VALUES TO YOUR DESIRED ONES!",
+        ],
+    },
+
+    "data_plotter": {
+        "scope": "python",
+        "prefix": "!plt",
+        "body": ["plt.scatter(a, b, color = '')",
+            "plt.plot(a, c, color = '')",
+            "plt.title('')",
+            "plt.xlabel('')",
+            "plt.xlabel('')",
+            "plt.show()",
+        ],
+    },
+
+    "data_import": {
+        "scope": "python",
+        "prefix": "!import",
+        "body": ["dataset = pd.read_csv('')",
+        "x = dataset.iloc[:, :-1].values",
+        "y = dataset.iloc[:, -1].values",
+        ],    
+    },
+
+    "nn_model": {
+        "scope": "python",
+        "prefix": "!nnmodel",
+        "body": "model = tf.keras.Sequential([keras.layers.Dense(units=1,input_shape=[1])])",
+    },
+
+    "nn_epoch": {
+        "scope": "python",
+        "prefix": "!epoch",
+        "body": "model.fit(x,y,epochs=n)",
+    },
+
+    "nn_compl": {
+        "scope": "python",
+        "prefix": "!nncompl",
+        "body": "model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), tf.keras.layers.Dense(128, activation=tf.nn.relu), tf.keras.layers.Dense(10, activation=tf.nn.softmax)])"
+    },
+
+    "iris_set": {
+        "scope": "python",
+        "prefix": "!iris",
+        "body": ["import seaborn",
+        "vs=seaborn.load_dataset('iris')",
+        "vs",
+        ],
+    },
+    
+    
+}
