@@ -1,4 +1,4 @@
-# next-snippets README
+# README
 
 Hello everybody, and thanks for using the next-snippets extension first of all! This extension helps you to put basic ML Code templates in Python! Some are yet to come, but it is developed for users who are learning ML and Data Science for the first time! xD
 
@@ -58,6 +58,10 @@ Some commands for invoking the code snippets are given below!
 So far, no issues reported!
 
 ## Release Notes
+
+### 1.1.4
+
+Stable version now available! xD
 
 ### 1.1.3
 
