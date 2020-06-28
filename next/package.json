@@ -11,7 +11,11 @@
     ],
     "extensionPack": [ 
         "next-snippets",
-        "next-edu"
+        "next-edu",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "HookyQR.beautify",
+        "formulahendry.code-runner"
         
     ]
 }
