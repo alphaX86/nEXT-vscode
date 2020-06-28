@@ -61,7 +61,40 @@
         ],
     },
 
-    
+    "data_import": {
+        "scope": "python",
+        "prefix": "!import",
+        "body": ["dataset = pd.read_csv('')",
+        "x = dataset.iloc[:, :-1].values",
+        "y = dataset.iloc[:, -1].values",
+        ],    
+    },
 
+    "nn_model": {
+        "scope": "python",
+        "prefix": "!nnmodel",
+        "body": "model = tf.keras.Sequential([keras.layers.Dense(units=1,input_shape=[1])])",
+    },
+
+    "nn_epoch": {
+        "scope": "python",
+        "prefix": "!epoch",
+        "body": "model.fit(x,y,epochs=n)",
+    },
+
+    "nn_compl": {
+        "scope": "python",
+        "prefix": "!nncompl",
+        "body": "model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), tf.keras.layers.Dense(128, activation=tf.nn.relu), tf.keras.layers.Dense(10, activation=tf.nn.softmax)])"
+    },
+
+    "iris_set": {
+        "scope": "python",
+        "prefix": "!iris",
+        "body": ["import seaborn",
+        "vs=seaborn.load_dataset('iris')",
+        "vs",
+        ],
+    },
     
 }
