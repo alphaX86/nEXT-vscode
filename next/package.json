@@ -4,6 +4,7 @@
     "description": "Gives a basic overview of ML code in python. Ideal for beginners who wish to explore Data Science and ML. Contains extensions like snippets, extensions",
     "version": "1.0.0",
     "publisher": "duox32",
+    "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode"},
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -12,7 +13,6 @@
     ],
     "extensionPack": [ 
         "duox32.next-snippets",
-        "next-edu",
         "ms-python.python",
         "esbenp.prettier-vscode",
         "HookyQR.beautify",
