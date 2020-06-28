@@ -28,6 +28,14 @@ Some commands for invoking the code snippets are given below!
 
 `!iris` - Import a Iris dataset for example! xD
 
+`!dtr` - Import DecisionTreeRegressor template
+
+`!rfr` - Import RandomForestRegressor template
+
+`!svr` - Import SVR model
+
+`!fs` - Use feature scaling
+
 **More yet to come!**
 
 
@@ -50,6 +58,10 @@ Some commands for invoking the code snippets are given below!
 So far, no issues reported!
 
 ## Release Notes
+
+### 1.1.3
+
+Fixed issue which caused problems in the code
 
 ### 1.1.2
 
