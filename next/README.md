@@ -1,16 +1,14 @@
 # README
 
-## This is the README for your extension pack "next"
+Hello everybody, and thanks for using the next extension pack first of all! This extension helps you to put basic ML Code templates in Python! Some are yet to come, but it is developed for users who are learning ML and Data Science for the first time! xD
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+Some commands for invoking the code snippets are given below!
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+## Extensions used
 
-## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+## Requirements
+
+
+-----------------------------------------------------------------------------------------------

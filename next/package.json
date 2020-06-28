@@ -3,6 +3,7 @@
     "displayName": "nEXT",
     "description": "Gives a basic overview of ML code in python. Ideal for beginners who wish to explore Data Science and ML. Contains extensions like snippets, extensions",
     "version": "0.0.1",
+    "publisher": "duox32",
     "engines": {
         "vscode": "^1.46.0"
     },

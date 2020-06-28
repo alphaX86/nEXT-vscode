@@ -1,31 +1,49 @@
 # next-snippets README
 
-This is the README for your extension "next-snippets". After writing up a brief description, we recommend including the following sections.
+Hello everybody, and thanks for using the next-snippets extension first of all! This extension helps you to put basic ML Code templates in Python! Some are yet to come, but it is developed for users who are learning ML and Data Science for the first time! xD
 
-## Features
+Some commands for invoking the code snippets are given below!
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Code snippets and commands
 
-For example if there is an image subfolder under your extension project workspace:
+`!dat` - To invoke basic import of Data Science libraries
 
-\!\[feature X\]\(images/feature-x.png\)
+`!nntmp` - To import Tensorflow and Keras
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+`!encode` - To use the OneHotEncoder
+
+`!encody` - To use Encoder in case of variable 'y'
+
+`!train` - To import the split-dataset template
+
+`!plt` - To import the graphing template
+
+`!import` - To call the import dataset template
+
+`!nnmodel` - To invoke a neural network of single neuron
+
+`!epoch` - To train a Neural Network
+
+`!nncompl` - Import a NN (suitable for CV, MNIST etc)
+
+`!iris` - Import a Iris dataset for example! xD
+
+**More yet to come!**
+
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Python 3.6 or later
 
-## Extension Settings
+2. Tensorflow 2.x (Keras will be included)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+3. Pandas
 
-For example:
+4. Matplotlib
 
-This extension contributes the following settings:
+5. Numpy
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+6. Scikit-learn
 
 ## Known Issues
 
@@ -33,33 +51,8 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of next-snippets, added support for code templates of ML  
 
 -----------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
