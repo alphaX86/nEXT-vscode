@@ -3,6 +3,7 @@
     "displayName": "nEXT-snippets",
     "description": "Code snippets for ML",
     "version": "0.0.1",
+    "publisher": "duox32",
     "engines": {
         "vscode": "^1.46.0"
     },
