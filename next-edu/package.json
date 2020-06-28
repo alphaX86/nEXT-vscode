@@ -3,6 +3,7 @@
 	"displayName": "nEXT-edu",
 	"description": "Helps you to learn or know about some topics about AI.",
 	"version": "0.0.1",
+	"publisher": "duox32",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -10,7 +11,22 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:next-edu.helloWorld"
+		"onCommand:next-edu.helloWorld",
+		"onCommand:next-edu.ai",
+		"onCommand:next-edu.ml",
+		"onCommand:next-edu.dl",
+		"onCommand:next-edu.supl",
+		"onCommand:next-edu.unsupl",
+		"onCommand:next-edu.reinl",
+		"onCommand:next-edu.neural",
+		"onCommand:next-edu.turing",
+		"onCommand:next-edu.cv",
+		"onCommand:next-edu.reg",
+		"onCommand:next-edu.classify",
+		"onCommand:next-edu.cluster",
+		"onCommand:next-edu.decision",
+		"onCommand:next-edu.random",
+		"onCommand:next-edu.help"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -18,7 +34,68 @@
 			{
 				"command": "next-edu.helloWorld",
 				"title": "Hello World"
+			},
+			{
+				"command": "next-edu.ai",
+				"title": "AI"
+			},
+			{
+				"command": "next-edu.ml",
+				"title": "ML"
+			},
+			{
+				"command": "next-edu.dl",
+				"title": "DL"
+			},
+			{
+				"command": "next-edu.supl",
+				"title": "Supervised Learning"
+			},
+			{
+				"command": "next-edu.unsupl",
+				"title": "Unsupervised Learning"
+			},
+			{
+				"command": "next-edu.reinl",
+				"title": "Reinforcement Learning"
+			},
+			{
+				"command": "next-edu.neural",
+				"title": "Neural Networks"
+			},
+			{
+				"command": "next-edu.turing",
+				"title": "Turing Test"
+			},
+			{
+				"command": "next-edu.cv",
+				"title": "Computer vision"
+			},
+			{
+				"command": "next-edu.classify",
+				"title": "Classification"
+			},
+			{
+				"command": "next-edu.reg",
+				"title": "Regression"
+			},
+			{
+				"command": "next-edu.cluster",
+				"title": "Clustering"
+			},
+			{
+				"command": "next-edu.decision",
+				"title": "Decision Tree"
+			},
+			{
+				"command": "next-edu.random",
+				"title": "Random Forest"
+			},
+			{
+				"command": "next-edu.help",
+				"title": "Help"
 			}
+
 		]
 	},
 	"scripts": {
