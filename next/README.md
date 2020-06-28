@@ -6,9 +6,18 @@ Some commands for invoking the code snippets are given below!
 
 ## Extensions used
 
+1. Python Extension by Microsoft
 
+2. nEXT-snippets
+
+3. Prettier
+
+4. Code runner
+
+5. Beautify
 
 ## Requirements
 
+Python 3.6 or later is recommended to install extensions and work with it!
 
 -----------------------------------------------------------------------------------------------
