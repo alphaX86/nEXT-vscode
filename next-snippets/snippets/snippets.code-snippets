@@ -97,5 +97,43 @@
         ],
     },
     
+    "dtr": {
+        "scope": "python",
+        "prefix": "!dtr",
+        "body": ["from sklearn.tree import DecisionTreeRegressor",
+        "regressor = DecisionTreeRegressor(random_state = 0)",
+        "regressor.fit(X, y)",
+        ],
+    },
+
+    "rfr": {
+        "scope": "python",
+        "prefix": "!rfr",
+        "body": ["from sklearn.ensemble import RandomForestRegressor",
+        "regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)",
+        "regressor.fit(X, y)",
+        ],
+    },
+
+    "svr": {
+        "scope": "python",
+        "prefix": "!svr",
+        "body": ["from sklearn.svm import SVR",
+        "regressor = SVR(kernel = 'rbf')",
+        "regressor.fit(X, y)",
+        ],
+    },
+
+    "feature": {
+        "scope": "python",
+        "prefix": "!fs",
+        "body": ["from sklearn.preprocessing import StandardScaler",
+        "sc_X = StandardScaler()",
+        "sc_y = StandardScaler()",
+        "X = sc_X.fit_transform(X)",
+        "y = sc_y.fit_transform(y)",
+        "$LINE_COMMENT You may need to change this for operation!",
+        ],
+    },
     
 }
