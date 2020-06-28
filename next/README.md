@@ -14,7 +14,7 @@ Hello everybody, and thanks for using the next extension pack first of all! This
 
 4. Code runner
 
-5. Beautify
+5. nEXT-edu
 
 6. Bracket pair colorizer
 
