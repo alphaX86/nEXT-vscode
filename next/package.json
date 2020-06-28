@@ -2,10 +2,11 @@
     "name": "next",
     "displayName": "nEXT",
     "description": "Gives a basic overview of ML code in python. Ideal for beginners who wish to explore Data Science and ML. Contains packages like snippets, extensions, language support etc",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "icon": "pngsam.png",
     "publisher": "duox32",
-    "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode"},
+    "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode",
+    "type": "git"},
     "engines": {
         "vscode": "^1.46.0"
     },

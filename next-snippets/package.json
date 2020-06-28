@@ -2,10 +2,11 @@
     "name": "next-snippets",
     "displayName": "nEXT-snippets",
     "description": "Code snippets for ML",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "icon": "pngsam.png",
     "publisher": "duox32",
-    "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode"},
+    "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode",
+    "type": "git"},
     "engines": {
         "vscode": "^1.46.0"
     },

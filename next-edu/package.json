@@ -2,9 +2,10 @@
 	"name": "next-edu",
 	"displayName": "nEXT-edu",
 	"description": "Helps you to learn or know about some topics about AI.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "duox32",
-	"repository": {"url": "https://www.github.com/echo-864/nEXT-vscode"},
+	"repository": {"url": "https://www.github.com/echo-864/nEXT-vscode",
+	"type": "git"},
 	"icon": "tip.png",
 	"engines": {
 		"vscode": "^1.46.0"
