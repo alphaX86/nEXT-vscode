@@ -7,7 +7,7 @@
     "publisher": "duox32",
     "repository": {"url": "https://www.github.com/echo-864/nEXT-vscode",
     "type": "git"},
-    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+    "publishConfig": { "registry": "https://npm.pkg.github.com/next-vs/next" },
     "engines": {
         "vscode": "^1.46.0"
     },
