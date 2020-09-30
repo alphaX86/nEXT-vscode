@@ -22,7 +22,7 @@ nEXT is a solo-made project which is mainly focussed on building extension for t
 
 8. Prettier
 
-## Link for download0)
+## Link for download
 
 Want to use or see it? [nEXT Ext](https://marketplace.visualstudio.com/items?itemName=duox32.next)
 
