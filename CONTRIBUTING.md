@@ -13,7 +13,7 @@ Now, contribution of this repo can be of many types:
  
 So, better read the code of conduct and guidelines of this repo before contribution.
 
-**NOTE: All issues and pull requests will be thoroughly reviewed by me. So, no spamming! Else, your PR will be considered invalid!**
+**NOTE: All issues and pull requests will be thoroughly reviewed by me and auto-tests will also be performed. So, no spamming! Else, your PR will be considered invalid!**
 
 So, here's a brief overview for contributing,
 
