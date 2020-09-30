@@ -17,7 +17,7 @@ So, better read the code of conduct and guidelines of this repo before contribut
 
 So, here's a brief overview for contributing,
 
-1. Go to Issues to raise a notif first, you may be redirected to the templates section of what you want to do, (Bug report, Security Vulnerability), if it's Doc type issue, create one from scratch using **blank issue**
+1. Go to Issues to raise a notif first, you may be redirected to the templates section of what you want to do, (Bug report, Security Vulnerability, Documentation request), if not, create one from scratch using **blank issue**
 
 2. If you want to contribute towards code part, fork a copy of this repo, create a seperate branch other than master, do your changes and PR. Then, I'll review your PR, comment it and that's all! You're good to go! 
 
