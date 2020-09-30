@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help the extension improve
 title: ''
 labels: bug
-assignees: echo-864
+assignees: ''
 
 ---
 
