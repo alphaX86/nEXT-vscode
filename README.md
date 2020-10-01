@@ -1,8 +1,8 @@
 # nEXT-vscode
-This is an extension which CS beginners can use it to learn ML and Data Science!
+An extension which helps CS beginners to learn machine learning and data science.
 
 ## Intro
-nEXT is a solo-made project which is mainly focussed on building extension for those who start their CS journey ahead. 
+nEXT is a solo project which is mainly focused on building an extension for those who are getting started with their CS journey. 
 
 ## Extensions used
 
