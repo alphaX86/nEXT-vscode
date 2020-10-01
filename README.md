@@ -22,6 +22,10 @@ nEXT is a solo project which is mainly focused on building an extension for thos
 
 8. Prettier
 
-## Link
+## Link for download
 
 Want to use or see it? [nEXT Ext](https://marketplace.visualstudio.com/items?itemName=duox32.next)
+
+(Note: Python 3.6 or later is recommended to install extensions and work with it!)
+
+
