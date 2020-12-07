@@ -1,6 +1,6 @@
 {
     "dat_intro":{
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!dat",
         "body": ["$LINE_COMMENT Importing basic libraries",
             "import numpy as np", 
@@ -10,7 +10,7 @@
     },
 
     "dat_nn": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!nntmp",
         "body": ["$LINE_COMMENT For neural networks",
             "import tensorflow as tf",
@@ -19,7 +19,7 @@
     },
 
     "dat_encode": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!encode",
         "body": ["$LINE_COMMENT Encoding the dataset !",
             "from sklearn.compose import ColumnTransformer",
@@ -30,7 +30,7 @@
     },
 
     "dat_encody": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!encody",
         "body": ["$LINE_COMMENT For encoding y",
             "from sklearn.preprocessing import LabelEncoder",
@@ -40,7 +40,7 @@
     },
 
     "data_split": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!train",
         "body": ["$LINE_COMMENT Splitting dataset",
             "from sklearn.model_selection import train_test_split",
@@ -50,7 +50,7 @@
     },
 
     "data_plotter": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!plt",
         "body": ["plt.scatter(a, b, color = '')",
             "plt.plot(a, c, color = '')",
@@ -62,7 +62,7 @@
     },
 
     "data_import": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!import",
         "body": ["dataset = pd.read_csv('')",
         "x = dataset.iloc[:, :-1].values",
@@ -71,25 +71,25 @@
     },
 
     "nn_model": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!nnmodel",
         "body": "model = tf.keras.Sequential([keras.layers.Dense(units=1,input_shape=[1])])",
     },
 
     "nn_epoch": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!epoch",
         "body": "model.fit(x,y,epochs=n)",
     },
 
     "nn_compl": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!nncompl",
         "body": "model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), tf.keras.layers.Dense(128, activation=tf.nn.relu), tf.keras.layers.Dense(10, activation=tf.nn.softmax)])"
     },
 
     "iris_set": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!iris",
         "body": ["import seaborn",
         "vs=seaborn.load_dataset('iris')",
@@ -98,7 +98,7 @@
     },
     
     "dtr": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!dtr",
         "body": ["from sklearn.tree import DecisionTreeRegressor",
         "regressor = DecisionTreeRegressor(random_state = 0)",
@@ -107,7 +107,7 @@
     },
 
     "rfr": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!rfr",
         "body": ["from sklearn.ensemble import RandomForestRegressor",
         "regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)",
@@ -116,7 +116,7 @@
     },
 
     "svr": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!svr",
         "body": ["from sklearn.svm import SVR",
         "regressor = SVR(kernel = 'rbf')",
@@ -125,7 +125,7 @@
     },
 
     "feature": {
-        "scope": "python",
+        "scope": "python", "ipynb"
         "prefix": "!fs",
         "body": ["from sklearn.preprocessing import StandardScaler",
         "sc_X = StandardScaler()",
