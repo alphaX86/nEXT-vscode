@@ -1,7 +1,7 @@
 # nEXT-vscode
 An extension which helps CS beginners to learn machine learning and data science.
 
-![VS Code](https://img.shields.io/badge/-VS_Code_Marketplace-blue?style=for-the-badge&logo=visual-studio-code&url=https://marketplace.visualstudio.com/items?itemName=duox32.next) ![Python](https://img.shields.io/badge/-for_python-yellow?style=for-the-badge&logo=python) ![Type](https://img.shields.io/badge/-Type:Ext_pack-orange?style=for-the-badge&logo=codefactor)
+![VS Code](https://img.shields.io/badge/-VS_Code_Marketplace-blue?url=https://marketplace.visualstudio.com/items?itemName=duox32.next&style=for-the-badge&logo=visual-studio-code) ![Python](https://img.shields.io/badge/-for_python-yellow?style=for-the-badge&logo=python) ![Type](https://img.shields.io/badge/-Type:Ext_pack-orange?style=for-the-badge&logo=codefactor)
 
 ## Intro
 nEXT is a solo project which is mainly focused on building an extension for those who are getting started with their CS journey. 
